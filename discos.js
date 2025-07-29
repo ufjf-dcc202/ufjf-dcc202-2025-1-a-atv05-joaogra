@@ -19,6 +19,10 @@ export function getTabuleiro(){
     return [...tabuleiro];
 }
 
+export function getSelecionado(){
+    return selecionado;
+}
+
 function mover(origem, destino){
     console.log(`Movendo de ${origem} para ${destino}`)
     if(tabuleiro[origem]==='')
