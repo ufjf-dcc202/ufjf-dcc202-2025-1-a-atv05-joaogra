@@ -20,8 +20,7 @@
         }
 
         .disco{
-            background: radial-gradient(circle at top,purple, black);
-            border: 2px solid black;
+            border: 2px solid black 10%;
             width: 100%;
             aspect-ratio: 1/1;
             border-radius: 50%;
@@ -30,7 +29,14 @@
 
         .disco[data-cor = "preto"]{
             background: radial-gradient(circle at top,white, black);
+            border: 1px solid black;
         }
+
+        .disco[data-cor = "branco"]{
+            background: radial-gradient(circle at top,white, rgb(255, 255, 255));
+            border: 1px solid black;
+        }
+
 
         .disco[data-posicao="0"]{
             grid-column: 1;
